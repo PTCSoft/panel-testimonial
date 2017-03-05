@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`panel-testimonial`
+panel-testimonial
+
+@demo demo/index.html 
+-->
+
+<dom-module id="panel-testimonial">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'panel-testimonial',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'panel-testimonial',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
