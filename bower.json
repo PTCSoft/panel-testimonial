@@ -1,9 +1,31 @@
 {
   "name": "panel-testimonial",
-  "description": "panel-testimonial",
+  "authors": [
+    "PTC Corporation <info@ptc.co.ir>"
+  ],
+  "description": "IOrder panel testimonial",
   "main": "panel-testimonial.html",
+  "keywords": [
+    "ptc",
+    "polymer",
+    "iorder",
+    "element",
+    "login",
+    "panel",
+    "testimonial"
+  ],
+  "license": "Copyright © 2017 PTC Corporation, All rights reserved",
+  "homepage": "https://github.com/PTCSoft/panel-testimonial",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.4.0"
+    "polymer": "Polymer/polymer#^1.8.0"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
